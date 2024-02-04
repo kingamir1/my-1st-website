@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html,body{
+    scroll-behavior: smooth;
+    scroll-padding: 5rem;
+    background-color: #f4feff;
+}
+
+.container {
+    width: 87%;
+    margin: auto;
+}
+
+.section1 header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.section1 header .navlink ul {
+    display: flex;
+    align-items: center;
+}
+
+.section1 header .navlink li {
+    margin: 30px;
+}
+
+.section1 header .navlink a {
+    color: #450b78;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.section1 header .navlink a:hover {
+    border-bottom: 2px solid #450b78;
+}
+
+.section1{
+    position: sticky;
+    top: 0;
+    right: 0;
+    z-index: 100;
+}
+
+/*Section 2*/
+
+.section2 .two {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section2 .two .right img {
+    height: 100%;
+    width: 100%;
+}
+
+.section2 .two .left h6 {
+    font-size: 17px;
+    text-transform: capitalize;
+    color: #450b78;
+    margin-bottom: 14px;
+}
+
+.section2 .two .left h1 {
+    width: 80%;
+    font-weight: 700;
+    color: #450b78;
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+
+.section2 .two .left p {
+    width: 80%;
+    color: #333;
+    margin-bottom: 30px;
+    line-height: 1.6rem;
+}
+
+.section2 .two .btn {
+    display: flex;
+    align-items: center;
+}
+
+.section2 .two .btn button {
+    padding: 15px 25px;
+    border-style: none;
+    outline-style: none;
+    background: #f9218d;
+    color: white;
+    font-size: 16px;
+    border-radius: 30px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.section2 .two .btn button:hover {
+    background-color: rgb(173, 0, 216);
+    box-shadow: 0 5px 15px rgb(0, 0, 0.5);
+}
+
+.section2 .two .btn .play {
+    background-color: #d8528e;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    color: white;
+    cursor: pointer;
+}
